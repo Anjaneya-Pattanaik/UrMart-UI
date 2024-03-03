@@ -1,0 +1,75 @@
+html{
+    background-color: rgb(215, 232, 248);
+}
+.body-cont{
+    min-height: 100vh;
+}
+#searchbar{
+    width:40vw;
+    background-color: #bbddf3;
+}
+.color-navbar {
+    background-color: #5ab8fb;
+}
+.navbar-nav>li{
+    margin:2px 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.navbar-nav .my-nav-link{
+    padding-left:4px;;
+}
+.navbar-nav .nav-link.my-nav-link.active,.navbar-nav .nav-link.my-nav-link:hover{
+    background-color: rgb(37, 96, 180);
+    color: white;
+    border: 1px solid white;
+    border-radius: 9px;
+}
+.navbar-nav .my-nav-link.my-profile.dropdown-toggle::after {
+    display: none !important;
+}
+.nav-item:hover .dropdown-toggle:not(.collapsed) {
+    background-color:  rgb(37, 96, 180);
+    color: white;
+    border: 1px solid white;
+    border-radius: 9px;
+}
+#carouselExampleIndicators .round-btn{
+    border-radius: 30px;
+    background-color: gray;
+    padding: 30px;
+}
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Adjust the z-index as needed */
+}
+.vacant{
+    height: 50px;
+}
+#subscribe-btn{
+    border: 1px solid blue;
+    color: blue
+}
+#subscribe-btn:hover{
+    background-color: blue;
+    color: white;
+}
+.product-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.cart-empty{
+    background-color:rgb(215, 232, 248) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.cat-info{
+    margin: 1rem;
+}
